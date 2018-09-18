@@ -2,7 +2,7 @@ import random
 
 def get_question():
 	question = input("What is your question?")
-        return str(question)
+    return str(question)
 
 def check_question(question):
     question_str = str(question)
