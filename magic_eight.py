@@ -2,8 +2,8 @@ import random
 
 def get_question():
 	question = input("What is your question?")
-    question_str = str(question)
-    return(question_str)
+	question_str = str(question)
+	return(question_str)
 
 def check_question(question):
     question_str = str(question)
