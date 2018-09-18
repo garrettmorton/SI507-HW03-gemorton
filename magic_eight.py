@@ -19,9 +19,11 @@ answer_list = ["It is certain", "It is decidedly so.", "Without a doubt.", "Yes 
 "Concentrate and ask again.", "Don't count on it.", "My reply is no.", "My sources say no", "Outlook not so good.", "Very doubtful" ]
 
 answer = answer_list[random.randrange(20)]
+
+is_question = False
+
+while is_question == False:
+	question = get_question()
+	is_question = check_question(question)
+
 print(answer)
-
-question = 0
-
-while question != "quit":
-    question = get_question()
